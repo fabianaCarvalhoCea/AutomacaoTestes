@@ -1,0 +1,34 @@
+package steps;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginSeps {
+
+	@Given("^Eu visito a página da CEA$")
+	public void eu_visito_a_página_da_CEA() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Given("^Eu clico no menu FormAuthentication$")
+	public void eu_clico_no_menu_FormAuthentication() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@When("^Eu informo o usuário \"([^\"]*)\" e a senha \"([^\"]*)\"$")
+	public void eu_informo_o_usuário_e_a_senha(String arg1, String arg2) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Then("^é apresentado a tela de login com sucesso$")
+	public void é_apresentado_a_tela_de_login_com_sucesso() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+}

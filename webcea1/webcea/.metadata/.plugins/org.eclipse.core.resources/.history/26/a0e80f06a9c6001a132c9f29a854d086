@@ -1,0 +1,12 @@
+#language:pt
+
+
+Funcionalidade: Autenticação
+Esta feature é responsável por realizar o login do sistema.
+
+@login
+Cenario: Login com sucesso
+Dado Eu visito a página da CEA
+E Eu clico no menu FormAuthentication
+Quando Eu informo o usuário "testcea80@gmail.com" e a senha "SuperSecret1"
+Então é apresentado a tela de login com sucesso
